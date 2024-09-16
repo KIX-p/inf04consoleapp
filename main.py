@@ -1,3 +1,14 @@
+"""
+************************
+klasa: Narzedzia
+opis: Klasa zawieara narzedzia do formatowania tekstu
+metody: licz_samogloski(tekst: str) - int
+        usun_powtorzenia(tekst: str) - str
+autor: Pawel Kikh
+************************
+"""
+
+
 class Narzedzia:
     @staticmethod
     def licz_samogloski(tekst: str) -> int:
